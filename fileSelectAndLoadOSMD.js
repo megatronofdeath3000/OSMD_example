@@ -27,10 +27,7 @@ function handleFileSelect(evt) {
               drawingParameters: "compact",
               drawPartNames: false
           });
-          //var openSheetMusicDisplay = new opensheetmusicdisplay.OpenSheetMusicDisplay(canvas, { drawingParameters: "compact", drawPartNames: false});
-          //openSheetMusicDisplay.setOptions({backend: "canvas"});
-            //backend: "canvas
-            //var openSheetMusicDisplay = new opensheetmusicdisplay.OpenSheetMusicDisplay("osmdCanvas");
+          
           openSheetMusicDisplay
             .load(e.target.result)
             .then(
